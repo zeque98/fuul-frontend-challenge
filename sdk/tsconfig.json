@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "ESNext"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["**/*.spec.ts", "**/*.test.ts"]
+}
