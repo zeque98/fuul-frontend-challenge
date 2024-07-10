@@ -1,0 +1,21 @@
+{
+  "name": "fuul-frontend-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-linter:sdk": "cd sdk && npm run test && npm run lint",
+    "linter:web": "cd web && npm run lint",
+    "code-quality": "npm run test-linter:sdk && npm run linter:web",
+    "prepare": "npm run prepare:sdk && npm run prepare:web",
+    "prepare:sdk": "cd sdk && npm install && npm run build",
+    "prepare:web": "cd web && npm install",
+    "dev": "cd web && npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^9.0.11"
+  },
+  "packageManager": "yarn@4.3.1"
+}
