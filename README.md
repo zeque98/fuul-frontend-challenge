@@ -1,1 +1,2 @@
-# fuul-frontend-challenge
+# Fuul Frontend Code Challenge
+

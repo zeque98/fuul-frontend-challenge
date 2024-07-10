@@ -1,0 +1,7 @@
+node_modules
+/dist
+wagmi-project
+.rollup.cache
+# TypeScript cache
+*.tsbuildinfo
+
